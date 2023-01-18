@@ -3,10 +3,10 @@
  * @return {number[]}
  */
 var buildArray = function(nums) {
-    const ans = []
+    const answer = []
     for (let i = 0; i < nums.length; i++) {
-        ans[i] = nums[nums[i]]
+        const value = nums[nums[i]]
+        answer.push(value)
     }
-    
-    return ans;
+    return answer
 };
